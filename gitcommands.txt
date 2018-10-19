@@ -70,6 +70,7 @@ git checkout Sprint1
 git push origin <Branchname>
 ex: git push origin Sprint1
 
+
 ===========================================================================================================================================================
 Delete Local Branch
 To delete the local branch use one of the following:
@@ -83,4 +84,6 @@ You could also use -D, which is an alias for --delete --force, which deletes the
 Delete Remote Branch
 1) git push <remote_name> --delete <branch_name>
 ex: git push origin --delete Sprint1
+
 ===================================================================================
+
