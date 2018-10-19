@@ -31,3 +31,40 @@ git checkout <branch_name>
 git init
 git branch
 should show all the local branches of your repo. The starred branch is your current branch.
+
+List branch on local repository
+git branch 
+* master
+This output indicates there is a single branch, the master and the asterisk indicates it is currently active.
+
+Create a new feature branch in the repository
+$ git branch <feature_branch>
+
+Switch to the feature branch to work on it.
+$ git checkout <feature_branch>
+
+git checkout -b new-branch existing-branch
+
+The -b flag tells it to create a new branch at the same time. By default, the new branch is based upon whatever branch you were on.
+
+
+// List of all barnches
+git branch
+
+//Create new Branch
+git branch BRANCH_NAME
+ex: git branch Sprint1
+
+//Switch to new branch
+git checkout Sprint1
+
+//Create new branch and switch to branch
+git checkout -b new-branch existing-branch
+git pull origin branch1
+git add . 
+git commit -m "Comment"
+
+git checkout Sprint1
+//Push new branch to remote repository
+git push origin <Branchname>
+ex: git push origin Sprint1
