@@ -26,3 +26,5 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git checkout -b [name_of_your_new_branch]
 //switch between branches in local
 git checkout <branch_name>
+git branch
+should show all the local branches of your repo. The starred branch is your current branch.
