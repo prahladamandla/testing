@@ -1,0 +1,28 @@
+//first time users
+//git clone -b branch_name remote_repo
+git clone -b master https://github.com/prahladamandla/testing.git
+//now you have a local copy of the remote repository
+//created a new text file in my local copy with <name>.txt
+//check whether this file is added
+git status
+//not added files will appear in red
+git add <file_name>
+//if you want to add red flag files
+git add *
+//local git is added with changes
+//commit local git with the added files
+git commit -m "message"
+//this commits your local changes
+//update your local changes to remote
+//initial setup to add remote repositories
+git remote add origin https://github.com/prahladamandla/testing.git
+//if you want to check what origins are available
+git remote -v
+//push changes to the remote branch
+git push -u <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME>
+//change remote origins
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+//git create a local barnch
+git checkout -b [name_of_your_new_branch]
+//switch between branches in local
+git checkout <branch_name>
