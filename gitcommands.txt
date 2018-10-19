@@ -26,3 +26,6 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git checkout -b [name_of_your_new_branch]
 //switch between branches in local
 git checkout <branch_name>
+//initialize local 
+//navigate to the folder and run this command
+git init
